@@ -2,7 +2,7 @@ import { getRouteApi, useNavigate } from '@tanstack/react-router';
 import { useQuery, useQueryClient } from '@tanstack/react-query';
 import { useEffect } from 'react';
 import { ApiError } from '@/shared/api/errors';
-import { saveLastListSearch } from '@/shared/lib/last-list-search';
+import { saveLastListSearch } from '@/features/auction-filters/model/last-list-search';
 import { Button } from '@/shared/ui/button.component';
 import { Skeleton } from '@/shared/ui/skeleton.component';
 import { PaginationBar } from '@/shared/ui/pagination-bar.component';

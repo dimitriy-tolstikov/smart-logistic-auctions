@@ -1,8 +1,4 @@
-import {
-  parseAuctionsSearch,
-  stripEmptySearch,
-  type AuctionsSearch,
-} from '@/features/auction-filters/model/search-params';
+import { parseAuctionsSearch, stripEmptySearch, type AuctionsSearch } from './search-params';
 
 const KEY = 'ul-last-list-search';
 

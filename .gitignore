@@ -5,3 +5,8 @@ dist-ssr
 .vite
 coverage
 .tanstack
+
+# Материалы задания (не входят в сдачу)
+zadanie.txt
+Вакансия.txt
+*.pdf

@@ -15,7 +15,7 @@ import {
 import { AuctionRoutePoints } from '@/entities/auction/ui/auction-route-points.component';
 import { AuctionTradingPanel } from '@/entities/auction/ui/auction-trading-panel.component';
 import { parseAuctionsSearch, stripEmptySearch, toRouterSearch } from '@/features/auction-filters/model/search-params';
-import { readLastListSearch } from '@/shared/lib/last-list-search';
+import { readLastListSearch } from '@/features/auction-filters/model/last-list-search';
 import { BetsHistoryPanel } from './bets-history-panel.component';
 
 const routeApi = getRouteApi('/auctions/$auctionUuid');
